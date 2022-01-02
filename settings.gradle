@@ -1,0 +1,10 @@
+dependencyResolutionManagement {
+    repositories {
+        google()
+        jcenter()
+        maven {url 'https://developer.huawei.com/repo/'}
+    }
+}
+
+include ':app'
+rootProject.name = "Movie App"
